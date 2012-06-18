@@ -21,7 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{A gem enabling you to create classsifers and use them using the UClassify API. www.uclassify.com/XmlApiDocumentation.aspx#examples}
   gem.email = "manishchaks@gmail.com"
   gem.authors = ["Manish Chakravarty"]
-  gem.version = '0.1.1'
+  gem.version = '0.1.2'
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
