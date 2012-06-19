@@ -17,8 +17,8 @@ class UClassifyQuery
     self  
   end
   
-  def classify_text(classifier_name,text)
-    add_classifier(classifier_name,text)
+  def classify_text(classifier_name,text,username=nil)
+    add_classifier(classifier_name,text,username)
     add_text(text)
   end
   
