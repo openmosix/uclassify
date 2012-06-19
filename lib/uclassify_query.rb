@@ -11,8 +11,8 @@ class UClassifyQuery
     self
   end
   
-  def add_classifier (classifier_name,text)
-    classifier = UClassifyClassifier.new(classifier_name,text)
+  def add_classifier (classifier_name,text,username=nil)
+    classifier = UClassifyClassifier.new(classifier_name,text,username)
     @classifiers << classifier 
     self  
   end
